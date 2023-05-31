@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "Vazir";
+  src: url("../fonts/Vazir.eot");
+  /* IE9 Compat Modes */
+  src: url("../fonts/Vazir.eot?#iefix") format("embedded-opentype"), url("../fonts/Vazir.woff2") format("woff2"), url("../fonts/Vazir.woff") format("woff"), url("../fonts/Vazir.ttf") format("truetype");
+  /* Safari, Android, iOS */ }
+body {
+  direction: rtl;
+  text-align: right !important;
+  font-family: "Vazir" !important;
+  line-height: 1.6; }
+
+.navbar {
+  box-shadow: 2px 2px 5px #5f0f4e !important;
+  background: #fff; }
+
+#showcase {
+  background: linear-gradient(rgba(95, 15, 78, 0.2), rgba(95, 15, 78, 0.2)), url("../img/showcase.jpg") no-repeat center center/cover; }
+
+#showcase-height {
+  height: 80vh; }
+
+#teams img {
+  margin-top: -100px; }
+#teams .card {
+  margin-bottom: 100px; }
+#teams .card:hover {
+  background: #5f0f4e !important;
+  color: #fff; }
+  #teams .card:hover .fab {
+    color: #fff; }
